@@ -4,21 +4,20 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="aionanoleaf",
-    version="0.2.1",
-    author="Milan Meulemans",
-    author_email="milan.meulemans@live.be",
-    description="Async Python package for the Nanoleaf API",
-    keywords="nanoleaf api canvas shapes elements light panels",
+    name="aionanoleaf2",
+    version="1.0.0",
+    author="loebi-ch",
+    author_email="andy@slyweb.ch",
+    description="Async Python package for the Nanoleaf API that replaces aioNanoleaf.",
+    keywords="nanoleaf api canvas shapes elements light panels strips essentials 4d emersion",
     license="LGPLv3+",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/milanmeu/aionanoleaf",
+    url="https://github.com/loebi-ch/aionanoleaf2",
     project_urls={
-        "Say Thanks!": "https://saythanks.io/to/milan.meulemans@live.be",
-        "Bug Tracker": "https://github.com/milanmeu/aionanoleaf/issues",
-        "Source Code": "https://github.com/milanmeu/aionanoleaf",
-        "Documentation": "https://github.com/milanmeu/aionanoleaf/blob/main/README.md",
+        "Bug Tracker": "https://github.com/loebi-ch/aionanoleaf2/issues",
+        "Source Code": "https://github.com/loebi-ch/aionanoleaf2",
+        "Documentation": "https://github.com/loebi-ch/aionanoleaf/blob/master/README.md",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -31,7 +30,6 @@ setup(
         "Typing :: Typed",
     ],
     python_requires=">=3.8",
-    packages=["aionanoleaf"],
-    package_data={"aionanoleaf": ["py.typed"]},
+    packages=["aionanoleaf2"],
     install_requires=["aiohttp"],
 )
